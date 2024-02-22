@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card {
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.profile-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30%;
+    width: 100%;
+    background-color: rgb(29, 114, 242);
+    border-radius: 15px 15px 0 0;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+
+.picture {
+
+    margin-top: 70px;
+    border-radius: 50%;
+    height: 90px;
+    width: 80px;
+    background-color: white;
+    padding: 2px;
+    border: solid;
+    border-color: rgb(29, 114, 242);
+    z-index: 100;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content1 {
+    font-size: 20px;
+    font-weight: 3px;
+    padding: 5px 3px;
+}
+
+.content2 {
+    font-size: 14px;
+    color: gray;
+}
+
+.content3 {
+    display: flex;
+    margin-top: 10px;
+}
+
+.icon {
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: aqua;
+    padding: 3px;
+    border-radius: 50%;
+    color: white;
+}
+
+
+.fb {
+    background-color: #4267b2;
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+.insta {
+    background-color: #e1306c;
+}
+
+.youtube {
+    background-color: #ff0000;
+}
+
+.content4 {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+button {
+
+    margin-left: 13px;
+    margin-right: 8px;
+    padding: 8px 15px 8px 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe {
+    border: none;
+    background-color: rgb(29, 114, 242);
+    color: white;
+    border-radius: 30px;
+    transition: opacity 0.9ms;
+
+}
+
+.subscribe:hover {
+    opacity: 0.7;
+}
+
+.subscribe:active {
+    opacity: 0.3;
+}
+
+.message {
+    border: none;
+    background-color: rgb(29, 114, 242);
+    color: white;
+    border-radius: 30px;
+    transition: opacity 0.9ms;
+}
+
+.message:hover {
+    opacity: 0.7;
+}
+
+.message:active {
+    opacity: 0.3;
+}
+
+.content5 {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.count {
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 2px solid #e7e7e7;
+}
+
+.count:last-child {
+    border-right: none;
+}
+
+span {
+    font-size: 15px;
+}
